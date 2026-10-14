@@ -18,7 +18,7 @@ Not for: walk-in-only businesses, and businesses whose booking cannot move to th
 $99 one-time setup + $29/month. First month total: $128. Month-to-month, no long-term contract. Monthly billing starts when the system goes live on the business’s bookings, not at sign-up.
 Guarantee: Live by the date we agree, or your setup fee comes back in full — guaranteed. The go-live clock starts when payment, content, and access are all in — whichever comes last starts the clock.
 Deposits run on the buyer’s own Stripe account via their own payment link; Stripe’s standard processing fees on a deposit are Stripe’s, on the buyer’s account, not marked up.
-Ordering: setup starts by email — northbeambuilds@gmail.com. (There is no self-serve Stripe checkout link for this product yet; Northbeam replies with the setup steps and a payment link for the $99 setup.)
+Buy online (Stripe checkout): https://buy.stripe.com/8x25kD3gE3hqbsC93ogYU07 — $99 setup + first month $29 = $128 due today, then $29/month. Ordering by email instead is fine too — northbeambuilds@gmail.com.
 
 ## How it works
 

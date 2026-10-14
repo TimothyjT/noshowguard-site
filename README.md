@@ -30,11 +30,19 @@ Rules that hold on every page:
   (README honesty rules, ONE-PAGER.md, LISTING-COPY-SECTION.md §H, QUALITY-RECORD.md
   NSG-7 decision). Prices and claims must match it exactly: **$99 setup + $29/mo**,
   first month total $128, month-to-month, billing starts at go-live.
-- **No Stripe payment link exists for this product yet** (verified 2026-10-14:
-  OPS-LOG + PROVISIONING.md carry links only for the original five products).
-  Until one is created, every buy CTA points at the contact path (`/contact/`,
-  start-by-email) — never invent a buy.stripe.com URL. When a link is created,
-  swap the CTAs to it and update this README + llms.txt in the same commit.
+- Stripe quick-buy link (created 2026-10-14, live account TubbsterBot):
+  `https://buy.stripe.com/8x25kD3gE3hqbsC93ogYU07`
+  (plink_1UQWHyDuI42vTlvNVXxFMati — product "No-Show Guard"
+  prod_VRP5k6zoi3cE8R; two line items: $99 one-time "Setup (one-time)"
+  price_1UQWHrDuI42vTlvNuc1rlLw7 + $29/mo recurring "Monthly service"
+  price_1UQWHsDuI42vTlvNYk1TfncA; $128 due today, verified by re-reading
+  the link's line items in Stripe. Post-payment redirect goes to this
+  site's /contact/ page — the stand-in intake surface until a dedicated
+  No-Show Guard intake page exists.) Every buy CTA (index ×3, pricing,
+  faq, demos, contact) points at the link with the label "Get No-Show
+  Guard — $99 setup + $29/mo"; llms.txt carries the "Buy online (Stripe
+  checkout)" line. The start-by-email path (northbeambuilds@gmail.com)
+  remains available and is unchanged.
 - The product is the hero brand (header wordmark, titles). The footer carries
   "**No-Show Guard — by Northbeam Builds**" + a link to https://northbeambuilds.com.
 - **SMS is never implied live.** The 24h/2h text reminders are templates, disabled
