@@ -1,0 +1,71 @@
+# No-Show Guard
+
+> No-Show Guard is deposit-gated booking with email reminders for appointment businesses. A small card deposit at booking — taken through the business’s own Stripe payment link — makes the slot a commitment, and a confirmation email plus a reminder email two days before go out on their own. $99 one-time setup + $29/month — $128 first month total, then $29/month, month-to-month.
+
+No-Show Guard is a product by Northbeam Builds, a small studio in Austin, TX that builds websites and AI tools for local service businesses. Company site: https://northbeambuilds.com
+
+## What it is
+
+An empty chair is the most expensive thing in an appointment business: the booking was real, the reminder never happened, the person never showed. No-Show Guard runs on a booking page Northbeam Builds provides — the business’s services, availability, and deposit policy. The customer puts a deposit down through the business’s own Stripe payment link (the money goes to the business’s Stripe account; card details never touch Northbeam’s system). Until the deposit lands, the slot is held, not confirmed. The confirmation email goes out immediately, a deposit reminder goes out halfway through the hold if the deposit is still outstanding, and a reminder email goes out two days before the appointment. Cancel or reschedule stops or re-times the sequence; an opt-out stops it for good. Two further reminders — a text one day before and a text two hours before — exist as templates but stay DISABLED until carrier (A2P) registration is approved AND a live delivery test is on record for the order. No no-show reduction percentage is claimed anywhere: no such data exists.
+
+## Who it is for
+
+For: appointment businesses that book ahead and feel an empty slot when it happens — salons and barbers, med spas and clinics with bookable treatments, cleaning companies running scheduled crews.
+Not for: walk-in-only businesses, and businesses whose booking cannot move to the provided booking page in this version.
+
+## Price
+
+$99 one-time setup + $29/month. First month total: $128. Month-to-month, no long-term contract. Monthly billing starts when the system goes live on the business’s bookings, not at sign-up.
+Guarantee: Live by the date we agree, or your setup fee comes back in full — guaranteed. The go-live clock starts when payment, content, and access are all in — whichever comes last starts the clock.
+Deposits run on the buyer’s own Stripe account via their own payment link; Stripe’s standard processing fees on a deposit are Stripe’s, on the buyer’s account, not marked up.
+Ordering: setup starts by email — northbeambuilds@gmail.com. (There is no self-serve Stripe checkout link for this product yet; Northbeam replies with the setup steps and a payment link for the $99 setup.)
+
+## How it works
+
+1. The business sends its services, hours, deposit amount and policy window, and its own Stripe payment link. Reminder and deposit-policy wording is written from the business’s details and approved by the business before go-live.
+2. Northbeam Builds builds the booking page, the deposit gate, and the reminder sequence for that business.
+3. It is proven on a live test booking through the business’s own setup — deposit held, confirmation and reminders observed — with the evidence shown to the business before go-live.
+4. Live: every booking gets the confirmation email immediately and the reminder email two days before. The owner sees upcoming bookings, deposit status per booking, reminder status, and failed-send flags, plus a monthly summary.
+
+## Questions and answers
+
+- Q: Is the texting live immediately?
+  A: No — and that’s disclosed before you pay, not discovered after. Email reminders are the launch path and go live first. Live texting requires carrier (A2P) registration — typically 2–5 business days — and the two text reminders (24 hours and 2 hours before) switch on only when that approval lands AND a live delivery test for your business is on record. Until then the text steps are disabled, not queued quietly. We’ll confirm in writing which channels are live when your system goes live.
+- Q: How does the deposit work — and is it fair to my customers?
+  A: The customer sees the whole policy in plain language before paying anything. The deposit is credited in full at the appointment — it comes off what they owe on the day. It is kept only on a no-show or a cancel inside the window you set (24 hours is typical). Outside that window, nothing is kept: the deposit goes back to the customer’s original payment method through Stripe, on the timing your policy states. You approve the exact wording your customers see, including that return line.
+- Q: What happens if a customer never pays the deposit?
+  A: The slot is held, not confirmed. They get one email halfway through the hold reminding them, with the exact deadline. If the deposit hasn’t landed by then, the hold is released, the slot opens back up, and you’re told. A payment that arrives after the release is recorded and flagged to you; the booking stays released.
+- Q: What if I don’t want to take deposits?
+  A: Then don’t. Run it reminders-only: the deposit step and every word of deposit wording simply never appear, and your customers just get the reminder sequence. Same $99 setup, same $29/mo.
+- Q: Which booking systems does it sit on top of?
+  A: In this version, none. It runs on a booking page we provide, with your services and your availability, and no sync with an outside calendar. Feeding it bookings from another system’s exports or forwarded confirmation emails is a later version and is not part of this offer. If moving booking to the provided page doesn’t work for your business, we’ll tell you before you pay.
+- Q: Will it cut my no-shows by some percentage?
+  A: We don’t claim one. No such data exists for this system, and a made-up number would be exactly that. The case is the mechanism: a deposit with something riding on the slot, a confirmation email, and a reminder email your customers actually see — instead of a booking left to memory.
+- Q: Where does the deposit money go?
+  A: To your Stripe account, through your own Stripe payment link. We never receive it, hold it, or process the card — there is no card field anywhere in this system. Stripe’s standard processing fees on a deposit are Stripe’s, on your account, not marked up by us.
+- Q: Who gets messaged?
+  A: Only people who booked with you, about that booking. No marketing sends, no cold lists, ever. A cancel or reschedule stops or re-times the sequence, and an opt-out stops it for good.
+- Q: What has to happen before it goes live?
+  A: It’s built for your business: your services, your hours, your deposit amount and window, your Stripe payment link, and the reminder wording — which you approve before anything goes live. Then it’s proven on a live test booking through your own setup, with the evidence shown to you. The go-live clock starts when payment, your content, and access are all in — whichever comes last starts the clock.
+- Q: Is there a contract?
+  A: No long contract. $99 setup, then month-to-month at $29/mo. The monthly billing starts when the system goes live on your bookings, not when you sign up. Cancel anytime and you owe nothing further. Live by the date we agree, or your setup fee comes back in full — guaranteed.
+
+## Links
+
+- Home: https://noshowguard.northbeambuilds.com/
+- The messages (the product’s own confirmation and reminder emails, word for word, on a fictional booking; the two text templates shown as disabled): https://noshowguard.northbeambuilds.com/demos/
+- Pricing: https://noshowguard.northbeambuilds.com/pricing/
+- FAQ: https://noshowguard.northbeambuilds.com/faq/
+- Contact: https://noshowguard.northbeambuilds.com/contact/
+
+## Contact
+
+Email: northbeambuilds@gmail.com (a person replies within one business day)
+
+## Other Northbeam Builds products
+
+- [Never-Miss-a-Lead](https://nevermiss.northbeambuilds.com/) — instant replies to missed calls and website forms
+- [Website FAQ & Lead Capture Agent](https://faqagent.northbeambuilds.com/) — a website chat box that answers questions and captures leads
+- [Website + Online Booking](https://booking.northbeambuilds.com/) — a website customers can book on
+- [AI Chatbot](https://chatbot.northbeambuilds.com/) — a custom chat agent, built around your business
+- [AI Phone Receptionist](https://receptionist.northbeambuilds.com/) — a voice that answers your phone when you can’t
