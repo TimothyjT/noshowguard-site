@@ -1,6 +1,6 @@
 # No-Show Guard
 
-> No-Show Guard is deposit-gated booking with email reminders for appointment businesses. A small card deposit at booking — taken through the business’s own Stripe payment link — makes the slot a commitment, and a confirmation email plus a reminder email two days before go out on their own. $99 one-time setup + $29/month — $128 first month total, then $29/month, month-to-month.
+> No-Show Guard is deposit-gated booking with email reminders for appointment businesses. A small card deposit at booking — taken through the business’s own Stripe payment link — makes the slot a commitment, and a confirmation email plus a reminder email two days before go out on their own. $99 one-time setup + $29/month — $99 due today for the setup; the $29/month starts when the system goes live on the business’s bookings. Month-to-month.
 
 No-Show Guard is a product by Northbeam Builds, a small studio in Austin, TX that builds websites and AI tools for local service businesses. Company site: https://northbeambuilds.com
 
@@ -15,10 +15,10 @@ Not for: walk-in-only businesses, and businesses whose booking cannot move to th
 
 ## Price
 
-$99 one-time setup + $29/month. First month total: $128. Month-to-month, no long-term contract. Monthly billing starts when the system goes live on the business’s bookings, not at sign-up.
+$99 one-time setup + $29/month. $99 due today (the setup). Month-to-month, no long-term contract. Monthly billing starts when the system goes live on the business’s bookings, not at sign-up.
 Guarantee: Live by the date we agree, or your setup fee comes back in full — guaranteed. The go-live clock starts when payment, content, and access are all in — whichever comes last starts the clock.
 Deposits run on the buyer’s own Stripe account via their own payment link; Stripe’s standard processing fees on a deposit are Stripe’s, on the buyer’s account, not marked up.
-Buy online (Stripe checkout): https://buy.stripe.com/8x25kD3gE3hqbsC93ogYU07 — $99 setup + first month $29 = $128 due today, then $29/month. Ordering by email instead is fine too — northbeambuilds@gmail.com.
+Buy online (Stripe checkout): https://buy.stripe.com/5kQfZh8AYaJSaoy4N8gYU08 — $99 setup due today; the $29/month starts when the system goes live on your bookings. Ordering by email instead is fine too — northbeambuilds@gmail.com.
 
 ## How it works
 

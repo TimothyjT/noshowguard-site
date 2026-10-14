@@ -29,19 +29,29 @@ Rules that hold on every page:
 - **Copy source is the kit's canonical sales copy** — `deploy-kit-no-show-guard/`
   (README honesty rules, ONE-PAGER.md, LISTING-COPY-SECTION.md §H, QUALITY-RECORD.md
   NSG-7 decision). Prices and claims must match it exactly: **$99 setup + $29/mo**,
-  first month total $128, month-to-month, billing starts at go-live.
-- Stripe quick-buy link (created 2026-10-14, live account TubbsterBot):
+  month-to-month, billing starts at go-live (never at sign-up).
+- Stripe quick-buy link (live account TubbsterBot) — SETUP ONLY, per the
+  kit's billing-starts-at-go-live rule (LISTING-COPY-SECTION §H Contract
+  FAQ: "The subscription starts when the system goes live on your
+  bookings, not when you sign up"):
+  `https://buy.stripe.com/5kQfZh8AYaJSaoy4N8gYU08`
+  (plink_1UQWjTDuI42vTlvNwmOema89, created 2026-10-14 — product
+  "No-Show Guard" prod_VRP5k6zoi3cE8R; ONE line item: $99 one-time
+  "Setup (one-time)" price_1UQWHrDuI42vTlvNuc1rlLw7; **$99 due today**,
+  verified by re-reading the link's line items in Stripe. Post-payment
+  redirect: `https://northbeambuilds.com/intake/no-show-guard/`.)
+  The $29/mo "Monthly service" price (price_1UQWHsDuI42vTlvNYk1TfncA) is
+  unchanged in Stripe and starts only at activation, as its own step —
+  it is NOT part of this checkout.
+  RECONCILIATION (2026-10-14): the original combined link
   `https://buy.stripe.com/8x25kD3gE3hqbsC93ogYU07`
-  (plink_1UQWHyDuI42vTlvNVXxFMati — product "No-Show Guard"
-  prod_VRP5k6zoi3cE8R; two line items: $99 one-time "Setup (one-time)"
-  price_1UQWHrDuI42vTlvNuc1rlLw7 + $29/mo recurring "Monthly service"
-  price_1UQWHsDuI42vTlvNYk1TfncA; $128 due today, verified by re-reading
-  the link's line items in Stripe. Post-payment redirect goes to this
-  site's /contact/ page — the stand-in intake surface until a dedicated
-  No-Show Guard intake page exists.) Every buy CTA (index ×3, pricing,
-  faq, demos, contact) points at the link with the label "Get No-Show
-  Guard — $99 setup + $29/mo"; llms.txt carries the "Buy online (Stripe
-  checkout)" line. The start-by-email path (northbeambuilds@gmail.com)
+  (plink_1UQWHyDuI42vTlvNVXxFMati) charged $99 + the first $29 month
+  together ($128 due today), mirroring the house one-link shape — it
+  contradicted the kit and was **deactivated** in Stripe (verified
+  inactive by re-read). Every buy CTA (index ×3, pricing, faq, demos,
+  contact) now points at the setup-only link with the label "Get
+  No-Show Guard — $99 setup, one time"; llms.txt carries the "Buy
+  online (Stripe checkout)" line. The start-by-email path (northbeambuilds@gmail.com)
   remains available and is unchanged.
 - The product is the hero brand (header wordmark, titles). The footer carries
   "**No-Show Guard — by Northbeam Builds**" + a link to https://northbeambuilds.com.
