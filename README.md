@@ -19,7 +19,7 @@ faq/index.html        Full FAQ (10 Q&As) + FAQPage JSON-LD identical to the visi
 contact/index.html    northbeambuilds@gmail.com card + start-by-email CTA
 llms.txt              LLM-facing summary; Q&As mirror the FAQ page
 assets/site.css       Shared design system (copied from the sibling product sites)
-assets/site.js        Header nav toggle + chat widget script (shared; this site does not mount the widget markup, same as faqagent-site)
+assets/site.js        Header nav toggle only — chat widget stripped (see DEAD-WIDGET-BRIEF-2026-10-16.md); this site does not mount widget markup
 CNAME                 noshowguard.northbeambuilds.com
 robots.txt, sitemap.xml
 ```
